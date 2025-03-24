@@ -24,10 +24,10 @@ const Viewgallery = () =>  {
     useEffect(() => {
       fjGallery(document.querySelectorAll('.gallery'), {
         itemSelector: '.gallery__item',
-        rowHeight: 110,
+        rowHeight: 250,
         lastRow: 'start',
-        gutter: 2,
-        rowHeightTolerance: 0.1,
+        gutter: 100,
+        rowHeightTolerance: 0.4,
         calculateItemsHeight: false,
       });
     }, []);
@@ -40,11 +40,11 @@ const Viewgallery = () =>  {
         plugins={[lgThumbnail, lgZoom]}
         elementClassNames={'gallery'}
       >
-          <a href="/images/logo/logo-karjel.png" className="gallery__item">
-            <img alt="img1" src="/images/logo/logo-karjel.png" />
+          <a href="/images/gallery/Kunst3.png" className="gallery__item">
+            <img alt="img1" src="/images/gallery/Kunst3.png" />
           </a>
-          <a href="/images/logo/logo.svg" className="gallery__item">
-            <img alt="img2" src="/images/logo/logo.svg" />
+          <a href="/images/gallery/Kunst4.png" className="gallery__item">
+            <img alt="img2" src="/images/gallery/Kunst4.png" />
           </a>
           <a href="/images/gallery/95b.jpg" className="gallery__item">
             <img alt="img3" src="/images/gallery/95b.jpg" />
@@ -52,6 +52,13 @@ const Viewgallery = () =>  {
           <a href="/images/gallery/White Pharaoh.jpg" className="gallery__item">
             <img alt="img4" src="/images/gallery/White Pharaoh.jpg" />
           </a>
+          <a href="/images/gallery/Kunst1.png" className="gallery__item">
+            <img alt="img5" src="/images/gallery/Kunst1.png" />
+          </a>
+          <a href="/images/gallery/Kunst2.png" className="gallery__item">
+            <img alt="img6" src="/images/gallery/Kunst2.png" />
+          </a>
+          
       </LightGallery>
       </div>
     );
