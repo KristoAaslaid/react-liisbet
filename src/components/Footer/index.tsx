@@ -32,13 +32,6 @@ const Footer = () => {
                   Integer lobortis.
                 </p>
                 <div className="flex items-center">
-                  <a
-                    href="/"
-                    aria-label="social-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mr-6 text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
-                  >
                     <Link href="https://www.instagram.com/karjel.art">
                       <Instagram
                         width="18"
@@ -53,7 +46,6 @@ const Footer = () => {
                         />
                       </Instagram>
                     </Link>
-                  </a>
                 </div>
               </div>
             </div>
