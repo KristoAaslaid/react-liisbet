@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "liisbeti-leht",
+      "script": "npm",
+      "args": "start",
+      "cwd": "/data01/virt109572/domeenid/www.karjel.art/liisbeti-lahe-leht",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}

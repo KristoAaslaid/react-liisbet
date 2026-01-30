@@ -1,3 +1,5 @@
+"use client";
+
 import LightGallery from 'lightgallery/react';
 
 // import styles
