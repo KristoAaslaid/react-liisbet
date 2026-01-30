@@ -6,8 +6,8 @@ import { Metadata } from "next";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "Contact Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Contact Page for Startup Nextjs Template",
+  title: "Liisbeti galerii",
+  description: "Liisbeti galerii",
   // other metadata
 };
 
