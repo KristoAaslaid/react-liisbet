@@ -48,17 +48,11 @@ const Viewgallery = () =>  {
           <a href="/images/gallery/Kunst4.png" className="gallery__item">
             <img alt="img2" src="/images/gallery/Kunst4.png" />
           </a>
-          <a href="/images/gallery/95b.jpg" className="gallery__item">
-            <img alt="img3" src="/images/gallery/95b.jpg" />
-          </a>
-          <a href="/images/gallery/White Pharaoh.jpg" className="gallery__item">
-            <img alt="img4" src="/images/gallery/White Pharaoh.jpg" />
-          </a>
           <a href="/images/gallery/Kunst1.png" className="gallery__item">
-            <img alt="img5" src="/images/gallery/Kunst1.png" />
+            <img alt="img3" src="/images/gallery/Kunst1.png" />
           </a>
           <a href="/images/gallery/Kunst2.png" className="gallery__item">
-            <img alt="img6" src="/images/gallery/Kunst2.png" />
+            <img alt="img4" src="/images/gallery/Kunst2.png" />
           </a>
           
       </LightGallery>

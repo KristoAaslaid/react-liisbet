@@ -10,40 +10,14 @@ const menuData: Menu[] = [
   {
     id: 2,
     title: "Tehtud tööd",
+    path: "/gallery",
     newTab: false,
-    submenu: [
-      {
-        id: 41,
-        title: "Maalid",
-        path: "/gallery",
-        newTab: false,
-      },
-      {
-        id: 42,
-        title: "Digimaalid",
-        path: "/gallery",
-        newTab: false,
-      },
-    ],
   },
   {
     id: 3,
     title: "Pood",
+    path: "/store",
     newTab: false,
-    submenu: [
-      {
-        id: 51,
-        title: "Maalid",
-        path: "/store",
-        newTab: false,
-      },
-      {
-        id: 52,
-        title: "Digimaalid",
-        path: "/store",
-        newTab: false,
-      },
-    ],
   },
   {
     id: 4,

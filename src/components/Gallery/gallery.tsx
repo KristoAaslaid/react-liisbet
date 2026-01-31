@@ -1,7 +1,6 @@
 "use client";
 
 import Viewgallery from "./viewgallery";
-import Link from "next/link";
 
 const Gallery = () => {
   return (
